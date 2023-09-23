@@ -1,0 +1,65 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    text-decoration:wheat;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: rgb(177, 146, 235);
+    
+}
+form{
+    background: rgb(255, 255, 255);
+    width: 350px;
+    height: 580px;
+    padding: 75px 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) ;
+    border: none;    
+}
+h1{
+    text-align: center;
+    margin-bottom: 25%;
+    color: rgb(179, 87, 34);
+    font-size: 30px;
+}
+.textBox{
+    border-bottom: 2px solid wheat;
+    position: relative;
+    margin: 35px 0;
+}
+.textBox input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: rgb(161, 145, 123);
+    font-size: larger;
+    height: 30px;
+}
+.loginBtn{
+    height: 45px;
+    width: 100%;
+    border: none;
+    color: rgb(105, 94, 80);
+    outline: none;
+    background-color:orange;
+    height: 30px;
+    font-size: 20px;
+    background-size: 200%;
+
+}
+.loginBtn:hover{
+    background-position: right;
+    color: yellow;
+    font-size: 17px;
+
+}
+.signup a{
+    color:grey;
+    text-align: center;
+}
